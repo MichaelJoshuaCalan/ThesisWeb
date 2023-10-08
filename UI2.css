@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .background{
+    background-image:linear-gradient(rgb(0,0,0,0.75),rgb(0,0,0,0.25)) ,url(bg2.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120vh;
+  }
+  .content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+  }
+  .content textarea{
+    text-align: center;
+    
+  }
+  button{
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #33f1f4;
+  background: transparent;
+  color:#ffffff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  
+  }
+  span{
+    background: #009688;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  
